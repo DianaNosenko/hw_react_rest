@@ -1,0 +1,48 @@
+:root {
+    --main-color: #FA4A0C;
+    --text-color: #252b42;
+    --second-text-color: #737373;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px;
+    text-align: start;
+    margin-bottom: 0px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: var(--main-color);
+    margin-bottom: 17px;
+}
+h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: var(--text-color);
+    margin-bottom: 27px;
+}
+h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: var(--second-text-color);
+}
+.text_article {
+    width: 560px;
+}
+h1 {
+    text-align: center;
+}
+.last-section > section {
+    flex-direction: row-reverse;
+    margin-top: 0px;
+
+}
